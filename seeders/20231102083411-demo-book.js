@@ -5,10 +5,10 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     return queryInterface.bulkInsert('Books', [
       {
-        judul: 'cece',
-        penerbit: 'siduarjo',
-        deskripsi: "alamak",
-        gambar: "towewew.jpg",
+        judul: 'Sang Keadilan',
+        penerbit: 'Cahyo Wahyudi',
+        deskripsi: "Seorang anak yang dilahirkan untuk menjadi pendekar naga",
+        gambar: "8ycdsyndmrnv5nkvtxf3yx.jpg.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
       }
